@@ -1,0 +1,125 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ────────────────────────────────────────
+    // Helper functions
+    // ────────────────────────────────────────
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return request.auth.uid == userId;
+    }
+
+    function getUserRole() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role;
+    }
+
+    function isSuperAdmin() {
+      return isAuthenticated() && getUserRole() == 'superAdmin';
+    }
+
+    function isBusinessOwner() {
+      return isAuthenticated() && getUserRole() == 'businessOwner';
+    }
+
+    function isEmployee() {
+      return isAuthenticated() && getUserRole() == 'employee';
+    }
+
+    function ownsThisBusiness(businessId) {
+      return isAuthenticated() &&
+             get(/databases/$(database)/documents/businesses/$(businessId)).data.ownerId == request.auth.uid;
+    }
+
+    // ────────────────────────────────────────
+    // USERS collection
+    // ────────────────────────────────────────
+    match /users/{userId} {
+      allow read:    if isAuthenticated() && (isOwner(userId) || isSuperAdmin());
+      allow create:  if isAuthenticated() && isOwner(userId);
+      allow update:  if isAuthenticated() && (isOwner(userId) || isSuperAdmin());
+      allow delete:  if isSuperAdmin();
+    }
+
+    // ────────────────────────────────────────
+    // BUSINESSES collection + sub-collections
+    // ────────────────────────────────────────
+    match /businesses/{businessId} {
+      allow read:   if isAuthenticated();
+      allow create: if isAuthenticated() && isBusinessOwner();
+      allow update: if isAuthenticated() && ownsThisBusiness(businessId);
+      allow delete: if isSuperAdmin();
+
+      // ── SERVICES sub-collection ──
+      match /services/{serviceId} {
+        allow read:            if isAuthenticated();
+        allow create, update, delete: if isAuthenticated() && ownsThisBusiness(businessId);
+      }
+
+      // ── HOURS sub-collection ──
+      match /hours/{docId} {
+        allow read:            if isAuthenticated();
+        allow create, update, delete: if isAuthenticated() && ownsThisBusiness(businessId);
+      }
+
+      // ── BOOKINGS sub-collection ──
+      match /bookings/{bookingId} {
+        allow read:   if isAuthenticated();
+        allow create: if isAuthenticated();
+        allow update: if isAuthenticated() && (
+          ownsThisBusiness(businessId) ||
+          request.auth.uid == resource.data.customerId
+        );
+        allow delete: if isAuthenticated() && ownsThisBusiness(businessId);
+      }
+
+      // ── INVOICES sub-collection ──
+      match /invoices/{invoiceId} {
+        allow read:   if isAuthenticated();
+        allow create, update: if isAuthenticated() && ownsThisBusiness(businessId);
+        allow delete: if isSuperAdmin();
+      }
+
+      // ── EMPLOYEES sub-collection ──
+      match /employees/{employeeId} {
+        // Business owner can read/write all employees
+        // Each employee can read their own record
+        allow read: if isAuthenticated() && (
+          ownsThisBusiness(businessId) ||
+          request.auth.uid == employeeId
+        );
+
+        allow create, update: if isAuthenticated() && ownsThisBusiness(businessId);
+
+        allow delete: if isAuthenticated() && ownsThisBusiness(businessId);
+      }
+
+      // ── ATTENDANCE sub-collection ──
+      match /attendance/{attendanceId} {
+        allow read: if isAuthenticated() && (
+          ownsThisBusiness(businessId) ||
+          request.auth.uid == resource.data.employeeId
+        );
+
+        allow create:  if isAuthenticated() && isEmployee();
+        allow update:  if isAuthenticated() && (
+          ownsThisBusiness(businessId) ||
+          request.auth.uid == resource.data.employeeId
+        );
+        allow delete:  if isAuthenticated() && ownsThisBusiness(businessId);
+      }
+    }
+
+    // ────────────────────────────────────────
+    // CHAT MESSAGES collection
+    // ────────────────────────────────────────
+    match /chats/{chatId}/messages/{messageId} {
+      allow read:   if isAuthenticated();
+      allow create: if isAuthenticated();
+      allow update, delete: if isSuperAdmin();
+    }
+  }
+}

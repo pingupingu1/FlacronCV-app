@@ -1,0 +1,82 @@
+{
+  "@@locale": "de",
+
+  "appTitle": "FlacronCV",
+
+  "welcomeTitle": "Automatisieren Sie Ihr Unternehmen mit KI",
+  "welcomeSubtitle": "Eine leistungsstarke Plattform, die Calendly, Gusto, Stripe, WhatsApp und mehr ersetzt",
+
+  "getStartedFree": "Kostenlos starten",
+  "alreadyHaveAccountLogin": "Bereits ein Konto? Anmelden",
+
+  "everythingYourBusinessNeeds": "Alles, was Ihr Unternehmen braucht",
+  "onePlatformZeroHassle": "Eine Plattform. Kein Aufwand.",
+
+  "aiCustomerAssistant": "KI-Kundenassistent",
+  "aiCustomerAssistantDesc": "Intelligenter 24/7-Chatbot, der Fragen beantwortet, Dienstleistungen empfiehlt und Buchungen abschließt",
+
+  "smartBookings": "Intelligente Buchungen",
+  "smartBookingsDesc": "Einfache Terminplanung, Verfügbarkeitsprüfung, Erinnerungen und Kalendersynchronisation",
+
+  "onlinePayments": "Online-Zahlungen",
+  "onlinePaymentsDesc": "Sichere Anzahlungen und Vollzahlungen über Stripe – sofort und unkompliziert",
+
+  "autoInvoicing": "Automatische Rechnungsstellung",
+  "autoInvoicingDesc": "Professionelle Rechnungen werden automatisch nach jeder Buchung oder Dienstleistung erstellt",
+
+  "employeeAttendance": "Mitarbeiter & Anwesenheit",
+  "employeeAttendanceDesc": "Ein- und Ausstempeln, Stundenberechnung und übersichtliches Anwesenheits-Dashboard",
+
+  "payrollSummary": "Lohnübersicht",
+  "payrollSummaryDesc": "Sofortige Übersicht über Mitarbeiterstunden × Stundensätze – kein manuelles Rechnen mehr",
+
+  "pricingTitle": "Einfache und transparente Preise",
+  "pricingSubtitle": "Wählen Sie den Tarif, der zu Ihrem Unternehmen passt",
+
+  "starterPlan": "Starter",
+  "growthPlan": "Growth",
+  "proPlan": "Pro",
+  "enterprisePlan": "Enterprise",
+
+  "perMonth": "/Monat",
+  "mostPopular": "Am beliebtesten",
+  "choosePlan": "Tarif wählen",
+
+  "trustedByBusinesses": "Vertraut von Unternehmen wie Ihrem",
+
+  "readyToAutomate": "Bereit, Ihr Unternehmen zu automatisieren?",
+  "joinHundreds": "Schließen Sie sich Hunderten von Unternehmen an, die täglich Zeit und Geld sparen",
+  "startFreeTrial": "Kostenlose Testphase starten",
+
+  "copyright": "© 2026 FlacronCV • Alle Rechte vorbehalten",
+
+  "createAccount": "Konto erstellen",
+  "joinFlacronControl": "FlacronCV beitreten",
+  "startAutomatingToday": "Automatisieren Sie Ihr Unternehmen noch heute",
+
+  "fullName": "Vollständiger Name",
+  "businessName": "Firmenname",
+  "email": "E-Mail",
+  "phoneNumber": "Telefonnummer",
+  "password": "Passwort",
+  "confirmPassword": "Passwort bestätigen",
+
+  "registerButton": "Konto erstellen",
+  "alreadyHaveAccount": "Sie haben bereits ein Konto? Anmelden",
+
+  "fieldRequired": "Pflichtfeld",
+  "invalidEmail": "Ungültige E-Mail-Adresse",
+  "passwordMinLength": "Mindestens 6 Zeichen",
+  "passwordsDoNotMatch": "Passwörter stimmen nicht überein",
+
+  "accountCreatedTitle": "Konto erstellt!",
+  "accountCreatedMessage": "Willkommen bei FlacronCV!\nIhr Profil wurde gespeichert.\nBitte verifizieren Sie Ihre E-Mail und melden Sie sich an.",
+
+  "goToLogin": "Zum Login",
+
+  "dashboard": "Dashboard",
+  "attendance": "Anwesenheit",
+  "payroll": "Lohnabrechnung",
+  "settings": "Einstellungen",
+  "language": "Sprache"
+}

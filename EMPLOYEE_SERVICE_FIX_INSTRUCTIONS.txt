@@ -1,0 +1,11 @@
+// INSTRUCTIONS: This file shows the two fixes needed in your
+// lib/core/services/employee_service.dart
+//
+// FIX 1 - line ~42: Change phone parameter to accept nullable String
+//   phone: phone ?? '',   ← add ?? '' to handle nullable
+//
+// FIX 2 - line ~55: Change toMap() to toFirestore()
+//   await docRef.set(employee.toFirestore());   ← use toFirestore() not toMap()
+//
+// Your EmployeeModel uses toFirestore(), NOT toMap().
+// See employee_model.dart - it has toFirestore() method defined.

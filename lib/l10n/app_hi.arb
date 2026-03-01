@@ -1,0 +1,80 @@
+{
+  "@@locale": "hi",
+
+  "appTitle": "फ्लैक्रॉन कंट्रोल",
+
+  "welcomeTitle": "अपने बिजनेस को AI से ऑटोमेट करें",
+  "welcomeSubtitle": "एक शक्तिशाली प्लेटफॉर्म जो Calendly, Gusto, Stripe, WhatsApp और अन्य को रिप्लेस करता है",
+  "getStartedFree": "मुफ्त शुरू करें",
+  "alreadyHaveAccountLogin": "पहले से अकाउंट है? लॉगिन करें",
+
+  "everythingYourBusinessNeeds": "आपके बिजनेस के लिए सब कुछ",
+  "onePlatformZeroHassle": "एक प्लेटफॉर्म। कोई परेशानी नहीं।",
+
+  "aiCustomerAssistant": "AI कस्टमर असिस्टेंट",
+  "aiCustomerAssistantDesc": "24/7 इंटेलिजेंट चैटबॉट जो सवालों के जवाब देता है, सेवाएँ सुझाता है और बुकिंग पूरी करता है",
+
+  "smartBookings": "स्मार्ट बुकिंग",
+  "smartBookingsDesc": "आसान शेड्यूलिंग, उपलब्धता जांच, रिमाइंडर और कैलेंडर सिंक",
+
+  "onlinePayments": "ऑनलाइन पेमेंट",
+  "onlinePaymentsDesc": "सुरक्षित Stripe डिपॉजिट और फुल पेमेंट — तुरंत और बिना किसी झंझट के",
+
+  "autoInvoicing": "ऑटो इनवॉइसिंग",
+  "autoInvoicingDesc": "हर बुकिंग या सर्विस के बाद प्रोफेशनल इनवॉइस अपने आप जनरेट होती है",
+
+  "employeeAttendance": "कर्मचारी और हाजिरी",
+  "employeeAttendanceDesc": "एंट्री/एग्जिट ट्रैकिंग, घंटों की गणना और आसान अटेंडेंस डैशबोर्ड",
+
+  "payrollSummary": "पेरोल सारांश",
+  "payrollSummaryDesc": "कर्मचारियों के घंटे × रेट का तुरंत ओवरव्यू — कोई मैनुअल कैलकुलेशन नहीं",
+
+  "pricingTitle": "साधारण और पारदर्शी मूल्य निर्धारण",
+  "pricingSubtitle": "अपने बिजनेस के लिए सही प्लान चुनें",
+
+  "starterPlan": "स्टार्टर",
+  "growthPlan": "ग्रोथ",
+  "proPlan": "प्रो",
+  "enterprisePlan": "एंटरप्राइज",
+
+  "perMonth": "/महीना",
+  "mostPopular": "सबसे लोकप्रिय",
+  "choosePlan": "प्लान चुनें",
+
+  "trustedByBusinesses": "आप जैसे बिजनेस द्वारा भरोसा किया गया",
+
+  "readyToAutomate": "अपने बिजनेस को ऑटोमेट करने के लिए तैयार हैं?",
+  "joinHundreds": "सैकड़ों बिजनेस में शामिल हों जो रोज़ समय और पैसे बचा रहे हैं",
+  "startFreeTrial": "अपनी फ्री ट्रायल शुरू करें",
+
+  "copyright": "© 2026 फ्लैक्रॉन कंट्रोल • सभी अधिकार सुरक्षित",
+
+  "createAccount": "खाता बनाएं",
+  "joinFlacronControl": "फ्लैक्रॉन कंट्रोल में शामिल हों",
+  "startAutomatingToday": "आज ही अपने बिजनेस को ऑटोमेट करना शुरू करें",
+
+  "fullName": "पूरा नाम",
+  "businessName": "बिजनेस का नाम",
+  "email": "ईमेल",
+  "phoneNumber": "फोन नंबर",
+  "password": "पासवर्ड",
+  "confirmPassword": "पासवर्ड की पुष्टि करें",
+
+  "registerButton": "खाता बनाएं",
+  "alreadyHaveAccount": "पहले से अकाउंट है? लॉगिन करें",
+
+  "fieldRequired": "आवश्यक",
+  "invalidEmail": "अमान्य ईमेल",
+  "passwordMinLength": "कम से कम 6 अक्षर",
+  "passwordsDoNotMatch": "पासवर्ड मेल नहीं खाते",
+
+  "accountCreatedTitle": "खाता बन गया!",
+  "accountCreatedMessage": "फ्लैक्रॉन कंट्रोल में आपका स्वागत है!\nआपका प्रोफाइल सेव हो गया है।\nकृपया अपना ईमेल वेरिफाई करें और लॉगिन करें।",
+  "goToLogin": "लॉगिन पर जाएं",
+
+  "dashboard": "डैशबोर्ड",
+  "attendance": "हाजिरी",
+  "payroll": "पेरोल",
+  "settings": "सेटिंग्स",
+  "language": "भाषा"
+}

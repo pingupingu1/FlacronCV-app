@@ -1,0 +1,80 @@
+{
+  "@@locale": "pt",
+
+  "appTitle": "FlacronCV",
+
+  "welcomeTitle": "Automatize o seu Negócio com IA",
+  "welcomeSubtitle": "Uma plataforma poderosa que substitui Calendly, Gusto, Stripe, WhatsApp e muito mais",
+  "getStartedFree": "Começar Grátis",
+  "alreadyHaveAccountLogin": "Já tem conta? Iniciar sessão",
+
+  "everythingYourBusinessNeeds": "Tudo o que o seu Negócio Precisa",
+  "onePlatformZeroHassle": "Uma única plataforma. Zero complicações.",
+
+  "aiCustomerAssistant": "Assistente de Clientes IA",
+  "aiCustomerAssistantDesc": "Chatbot inteligente 24/7 que responde a perguntas, sugere serviços e conclui reservas",
+
+  "smartBookings": "Reservas Inteligentes",
+  "smartBookingsDesc": "Agendamento simples, verificação de disponibilidade, lembretes e sincronização de calendário",
+
+  "onlinePayments": "Pagamentos Online",
+  "onlinePaymentsDesc": "Depósitos e pagamentos completos seguros via Stripe — instantâneos e sem complicações",
+
+  "autoInvoicing": "Faturação Automática",
+  "autoInvoicingDesc": "Faturas profissionais geradas automaticamente após cada reserva ou serviço",
+
+  "employeeAttendance": "Funcionários e Presenças",
+  "employeeAttendanceDesc": "Registo de entrada/saída, cálculo de horas e painel simples de presenças",
+
+  "payrollSummary": "Resumo de Folha de Pagamento",
+  "payrollSummaryDesc": "Visão instantânea de horas × taxas horárias — sem cálculos manuais",
+
+  "pricingTitle": "Preços Simples e Transparentes",
+  "pricingSubtitle": "Escolha o plano que se adapta ao seu negócio",
+
+  "starterPlan": "Starter",
+  "growthPlan": "Growth",
+  "proPlan": "Pro",
+  "enterprisePlan": "Enterprise",
+
+  "perMonth": "/mês",
+  "mostPopular": "Mais Popular",
+  "choosePlan": "Escolher Plano",
+
+  "trustedByBusinesses": "Com a confiança de negócios como o seu",
+
+  "readyToAutomate": "Pronto para automatizar o seu negócio?",
+  "joinHundreds": "Junte-se a centenas de negócios que poupam tempo e dinheiro todos os dias",
+  "startFreeTrial": "Iniciar o seu Teste Gratuito",
+
+  "copyright": "© 2026 FlacronCV • Todos os direitos reservados",
+
+  "createAccount": "Criar Conta",
+  "joinFlacronControl": "Juntar-se ao FlacronControl",
+  "startAutomatingToday": "Comece a automatizar o seu negócio hoje",
+
+  "fullName": "Nome Completo",
+  "businessName": "Nome da Empresa",
+  "email": "Email",
+  "phoneNumber": "Número de Telefone",
+  "password": "Palavra-passe",
+  "confirmPassword": "Confirmar Palavra-passe",
+
+  "registerButton": "Criar Conta",
+  "alreadyHaveAccount": "Já tem conta? Iniciar sessão",
+
+  "fieldRequired": "Campo obrigatório",
+  "invalidEmail": "Email inválido",
+  "passwordMinLength": "Pelo menos 6 caracteres",
+  "passwordsDoNotMatch": "As palavras-passe não coincidem",
+
+  "accountCreatedTitle": "Conta Criada!",
+  "accountCreatedMessage": "Bem-vindo ao FlacronCV!\nO seu perfil foi guardado.\nPor favor, verifique o seu email e inicie sessão.",
+  "goToLogin": "Ir para Iniciar Sessão",
+
+  "dashboard": "Painel de Controlo",
+  "attendance": "Presenças",
+  "payroll": "Folha de Pagamento",
+  "settings": "Definições",
+  "language": "Idioma"
+}

@@ -1,0 +1,283 @@
+{
+  "@@locale": "zh",
+  
+  "appTitle": "FlacronCV",
+  "@appTitle": {
+    "description": "Application title"
+  },
+  
+  "welcomeTitle": "用AI自动化您的业务",
+  "@welcomeTitle": {
+    "description": "Main welcome heading"
+  },
+  
+  "welcomeSubtitle": "一个强大的单一平台，取代Calendly、Gusto、Stripe、WhatsApp等多个工具",
+  "@welcomeSubtitle": {
+    "description": "Welcome page subtitle"
+  },
+  
+  "getStartedFree": "免费开始",
+  "@getStartedFree": {
+    "description": "Get started button text"
+  },
+  
+  "alreadyHaveAccountLogin": "已有账号？登录",
+  "@alreadyHaveAccountLogin": {
+    "description": "Login link for existing users"
+  },
+  
+  "everythingYourBusinessNeeds": "您的业务所需的一切",
+  "@everythingYourBusinessNeeds": {
+    "description": "Features section heading"
+  },
+  
+  "onePlatformZeroHassle": "一个平台，零麻烦",
+  "@onePlatformZeroHassle": {
+    "description": "Features section subheading"
+  },
+  
+  "aiCustomerAssistant": "AI客户助手",
+  "@aiCustomerAssistant": {
+    "description": "AI customer assistant feature title"
+  },
+  
+  "aiCustomerAssistantDesc": "全天24小时智能聊天机器人，回答问题、推荐服务并完成预约",
+  "@aiCustomerAssistantDesc": {
+    "description": "AI customer assistant feature description"
+  },
+  
+  "smartBookings": "智能预约",
+  "@smartBookings": {
+    "description": "Smart bookings feature title"
+  },
+  
+  "smartBookingsDesc": "轻松排期、可用性检查、提醒和日历同步",
+  "@smartBookingsDesc": {
+    "description": "Smart bookings feature description"
+  },
+  
+  "onlinePayments": "在线支付",
+  "@onlinePayments": {
+    "description": "Online payments feature title"
+  },
+  
+  "onlinePaymentsDesc": "通过Stripe安全完成定金和全额支付——即时、无忧",
+  "@onlinePaymentsDesc": {
+    "description": "Online payments feature description"
+  },
+  
+  "autoInvoicing": "自动开票",
+  "@autoInvoicing": {
+    "description": "Auto invoicing feature title"
+  },
+  
+  "autoInvoicingDesc": "每次预约或服务完成后自动生成专业发票",
+  "@autoInvoicingDesc": {
+    "description": "Auto invoicing feature description"
+  },
+  
+  "employeeAttendance": "员工与考勤",
+  "@employeeAttendance": {
+    "description": "Employee attendance feature title"
+  },
+  
+  "employeeAttendanceDesc": "上下班打卡、工时计算和简洁考勤仪表板",
+  "@employeeAttendanceDesc": {
+    "description": "Employee attendance feature description"
+  },
+  
+  "payrollSummary": "工资汇总",
+  "@payrollSummary": {
+    "description": "Payroll summary feature title"
+  },
+  
+  "payrollSummaryDesc": "员工工时×时薪即时概览——无需手动计算",
+  "@payrollSummaryDesc": {
+    "description": "Payroll summary feature description"
+  },
+  
+  "pricingTitle": "简单透明的定价",
+  "@pricingTitle": {
+    "description": "Pricing section heading"
+  },
+  
+  "pricingSubtitle": "选择适合您业务的套餐",
+  "@pricingSubtitle": {
+    "description": "Pricing section subheading"
+  },
+  
+  "starterPlan": "Starter",
+  "@starterPlan": {
+    "description": "Starter pricing plan name"
+  },
+  
+  "growthPlan": "Growth",
+  "@growthPlan": {
+    "description": "Growth pricing plan name"
+  },
+  
+  "proPlan": "Pro",
+  "@proPlan": {
+    "description": "Pro pricing plan name"
+  },
+  
+  "enterprisePlan": "Enterprise",
+  "@enterprisePlan": {
+    "description": "Enterprise pricing plan name"
+  },
+  
+  "perMonth": "/月",
+  "@perMonth": {
+    "description": "Per month pricing suffix"
+  },
+  
+  "mostPopular": "最受欢迎",
+  "@mostPopular": {
+    "description": "Most popular plan badge"
+  },
+  
+  "choosePlan": "选择套餐",
+  "@choosePlan": {
+    "description": "Choose plan button text"
+  },
+  
+  "trustedByBusinesses": "与您一样的商家信赖",
+  "@trustedByBusinesses": {
+    "description": "Trusted by businesses section heading"
+  },
+  
+  "readyToAutomate": "准备好自动化您的业务了吗？",
+  "@readyToAutomate": {
+    "description": "Call to action heading"
+  },
+  
+  "joinHundreds": "加入每天节省时间和金钱的数百家企业",
+  "@joinHundreds": {
+    "description": "Call to action subheading"
+  },
+  
+  "startFreeTrial": "开始免费试用",
+  "@startFreeTrial": {
+    "description": "Start free trial button text"
+  },
+  
+  "copyright": "© 2026 FlacronCV • 版权所有",
+  "@copyright": {
+    "description": "Copyright notice"
+  },
+  
+  "createAccount": "创建账号",
+  "@createAccount": {
+    "description": "Create account page title"
+  },
+  
+  "joinFlacronControl": "加入FlacronControl",
+  "@joinFlacronControl": {
+    "description": "Join FlacronControl heading"
+  },
+  
+  "startAutomatingToday": "今天就开始自动化您的业务",
+  "@startAutomatingToday": {
+    "description": "Registration page subheading"
+  },
+  
+  "fullName": "全名",
+  "@fullName": {
+    "description": "Full name form field label"
+  },
+  
+  "businessName": "企业名称",
+  "@businessName": {
+    "description": "Business name form field label"
+  },
+  
+  "email": "电子邮件",
+  "@email": {
+    "description": "Email form field label"
+  },
+  
+  "phoneNumber": "电话号码",
+  "@phoneNumber": {
+    "description": "Phone number form field label"
+  },
+  
+  "password": "密码",
+  "@password": {
+    "description": "Password form field label"
+  },
+  
+  "confirmPassword": "确认密码",
+  "@confirmPassword": {
+    "description": "Confirm password form field label"
+  },
+  
+  "registerButton": "创建账号",
+  "@registerButton": {
+    "description": "Register button text"
+  },
+  
+  "alreadyHaveAccount": "已有账号？登录",
+  "@alreadyHaveAccount": {
+    "description": "Login link on registration page"
+  },
+  
+  "fieldRequired": "必填",
+  "@fieldRequired": {
+    "description": "Required field validation message"
+  },
+  
+  "invalidEmail": "无效的电子邮件",
+  "@invalidEmail": {
+    "description": "Invalid email validation message"
+  },
+  
+  "passwordMinLength": "至少6个字符",
+  "@passwordMinLength": {
+    "description": "Password minimum length validation message"
+  },
+  
+  "passwordsDoNotMatch": "两次输入的密码不一致",
+  "@passwordsDoNotMatch": {
+    "description": "Password mismatch validation message"
+  },
+  
+  "accountCreatedTitle": "账号创建成功！",
+  "@accountCreatedTitle": {
+    "description": "Account created success dialog title"
+  },
+  
+  "accountCreatedMessage": "欢迎使用FlacronCV！\n您的个人资料已保存。\n请验证您的电子邮件并登录。",
+  "@accountCreatedMessage": {
+    "description": "Account created success dialog message"
+  },
+  
+  "goToLogin": "前往登录",
+  "@goToLogin": {
+    "description": "Go to login button text"
+  },
+  
+  "dashboard": "仪表盘",
+  "@dashboard": {
+    "description": "Dashboard navigation label"
+  },
+  
+  "attendance": "考勤",
+  "@attendance": {
+    "description": "Attendance navigation label"
+  },
+  
+  "payroll": "工资",
+  "@payroll": {
+    "description": "Payroll navigation label"
+  },
+  
+  "settings": "设置",
+  "@settings": {
+    "description": "Settings navigation label"
+  },
+  
+  "language": "语言",
+  "@language": {
+    "description": "Language settings label"
+  }
+}

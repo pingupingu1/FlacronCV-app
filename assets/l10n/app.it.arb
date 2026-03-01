@@ -1,0 +1,283 @@
+{
+  "@@locale": "it",
+  
+  "appTitle": "FlacronCV",
+  "@appTitle": {
+    "description": "Application title"
+  },
+  
+  "welcomeTitle": "Automatizza la tua Azienda con l'IA",
+  "@welcomeTitle": {
+    "description": "Main welcome heading"
+  },
+  
+  "welcomeSubtitle": "Una piattaforma potente che sostituisce Calendly, Gusto, Stripe, WhatsApp e altro",
+  "@welcomeSubtitle": {
+    "description": "Welcome page subtitle"
+  },
+  
+  "getStartedFree": "Inizia Gratis",
+  "@getStartedFree": {
+    "description": "Get started button text"
+  },
+  
+  "alreadyHaveAccountLogin": "Hai già un account? Accedi",
+  "@alreadyHaveAccountLogin": {
+    "description": "Login link for existing users"
+  },
+  
+  "everythingYourBusinessNeeds": "Tutto ciò di cui la tua Azienda ha bisogno",
+  "@everythingYourBusinessNeeds": {
+    "description": "Features section heading"
+  },
+  
+  "onePlatformZeroHassle": "Un'unica piattaforma. Zero complicazioni.",
+  "@onePlatformZeroHassle": {
+    "description": "Features section subheading"
+  },
+  
+  "aiCustomerAssistant": "Assistente Clienti IA",
+  "@aiCustomerAssistant": {
+    "description": "AI customer assistant feature title"
+  },
+  
+  "aiCustomerAssistantDesc": "Chatbot intelligente 24/7 che risponde alle domande, suggerisce servizi e conclude prenotazioni",
+  "@aiCustomerAssistantDesc": {
+    "description": "AI customer assistant feature description"
+  },
+  
+  "smartBookings": "Prenotazioni Intelligenti",
+  "@smartBookings": {
+    "description": "Smart bookings feature title"
+  },
+  
+  "smartBookingsDesc": "Programmazione semplice, verifica disponibilità, promemoria e sincronizzazione calendario",
+  "@smartBookingsDesc": {
+    "description": "Smart bookings feature description"
+  },
+  
+  "onlinePayments": "Pagamenti Online",
+  "@onlinePayments": {
+    "description": "Online payments feature title"
+  },
+  
+  "onlinePaymentsDesc": "Depositi e pagamenti completi sicuri con Stripe — istantanei e senza complicazioni",
+  "@onlinePaymentsDesc": {
+    "description": "Online payments feature description"
+  },
+  
+  "autoInvoicing": "Fatturazione Automatica",
+  "@autoInvoicing": {
+    "description": "Auto invoicing feature title"
+  },
+  
+  "autoInvoicingDesc": "Fatture professionali generate automaticamente dopo ogni prenotazione o servizio",
+  "@autoInvoicingDesc": {
+    "description": "Auto invoicing feature description"
+  },
+  
+  "employeeAttendance": "Dipendenti e Presenze",
+  "@employeeAttendance": {
+    "description": "Employee attendance feature title"
+  },
+  
+  "employeeAttendanceDesc": "Registrazione entrata/uscita, calcolo ore e pannello presenze semplice",
+  "@employeeAttendanceDesc": {
+    "description": "Employee attendance feature description"
+  },
+  
+  "payrollSummary": "Riepilogo Buste Paga",
+  "@payrollSummary": {
+    "description": "Payroll summary feature title"
+  },
+  
+  "payrollSummaryDesc": "Vista immediata ore × tariffe dipendenti — senza calcoli manuali",
+  "@payrollSummaryDesc": {
+    "description": "Payroll summary feature description"
+  },
+  
+  "pricingTitle": "Prezzi Semplici e Trasparenti",
+  "@pricingTitle": {
+    "description": "Pricing section heading"
+  },
+  
+  "pricingSubtitle": "Scegli il piano adatto alla tua azienda",
+  "@pricingSubtitle": {
+    "description": "Pricing section subheading"
+  },
+  
+  "starterPlan": "Starter",
+  "@starterPlan": {
+    "description": "Starter pricing plan name"
+  },
+  
+  "growthPlan": "Growth",
+  "@growthPlan": {
+    "description": "Growth pricing plan name"
+  },
+  
+  "proPlan": "Pro",
+  "@proPlan": {
+    "description": "Pro pricing plan name"
+  },
+  
+  "enterprisePlan": "Enterprise",
+  "@enterprisePlan": {
+    "description": "Enterprise pricing plan name"
+  },
+  
+  "perMonth": "/mese",
+  "@perMonth": {
+    "description": "Per month pricing suffix"
+  },
+  
+  "mostPopular": "Più Popolare",
+  "@mostPopular": {
+    "description": "Most popular plan badge"
+  },
+  
+  "choosePlan": "Scegli Piano",
+  "@choosePlan": {
+    "description": "Choose plan button text"
+  },
+  
+  "trustedByBusinesses": "Scelto da Aziende come la tua",
+  "@trustedByBusinesses": {
+    "description": "Trusted by businesses section heading"
+  },
+  
+  "readyToAutomate": "Pronto ad Automatizzare la tua Azienda?",
+  "@readyToAutomate": {
+    "description": "Call to action heading"
+  },
+  
+  "joinHundreds": "Unisciti a centinaia di aziende che risparmiano tempo e denaro ogni giorno",
+  "@joinHundreds": {
+    "description": "Call to action subheading"
+  },
+  
+  "startFreeTrial": "Inizia la Prova Gratuita",
+  "@startFreeTrial": {
+    "description": "Start free trial button text"
+  },
+  
+  "copyright": "© 2026 FlacronCV • Tutti i diritti riservati",
+  "@copyright": {
+    "description": "Copyright notice"
+  },
+  
+  "createAccount": "Crea Account",
+  "@createAccount": {
+    "description": "Create account page title"
+  },
+  
+  "joinFlacronControl": "Unisciti a FlacronControl",
+  "@joinFlacronControl": {
+    "description": "Join FlacronControl heading"
+  },
+  
+  "startAutomatingToday": "Inizia ad automatizzare la tua azienda oggi",
+  "@startAutomatingToday": {
+    "description": "Registration page subheading"
+  },
+  
+  "fullName": "Nome Completo",
+  "@fullName": {
+    "description": "Full name form field label"
+  },
+  
+  "businessName": "Nome Azienda",
+  "@businessName": {
+    "description": "Business name form field label"
+  },
+  
+  "email": "Email",
+  "@email": {
+    "description": "Email form field label"
+  },
+  
+  "phoneNumber": "Numero di Telefono",
+  "@phoneNumber": {
+    "description": "Phone number form field label"
+  },
+  
+  "password": "Password",
+  "@password": {
+    "description": "Password form field label"
+  },
+  
+  "confirmPassword": "Conferma Password",
+  "@confirmPassword": {
+    "description": "Confirm password form field label"
+  },
+  
+  "registerButton": "Crea Account",
+  "@registerButton": {
+    "description": "Register button text"
+  },
+  
+  "alreadyHaveAccount": "Hai già un account? Accedi",
+  "@alreadyHaveAccount": {
+    "description": "Login link on registration page"
+  },
+  
+  "fieldRequired": "Obbligatorio",
+  "@fieldRequired": {
+    "description": "Required field validation message"
+  },
+  
+  "invalidEmail": "Email non valida",
+  "@invalidEmail": {
+    "description": "Invalid email validation message"
+  },
+  
+  "passwordMinLength": "Almeno 6 caratteri",
+  "@passwordMinLength": {
+    "description": "Password minimum length validation message"
+  },
+  
+  "passwordsDoNotMatch": "Le password non coincidono",
+  "@passwordsDoNotMatch": {
+    "description": "Password mismatch validation message"
+  },
+  
+  "accountCreatedTitle": "Account Creato!",
+  "@accountCreatedTitle": {
+    "description": "Account created success dialog title"
+  },
+  
+  "accountCreatedMessage": "Benvenuto in FlacronCV!\nIl tuo profilo è stato salvato.\nVerifica la tua email e accedi.",
+  "@accountCreatedMessage": {
+    "description": "Account created success dialog message"
+  },
+  
+  "goToLogin": "Vai al Login",
+  "@goToLogin": {
+    "description": "Go to login button text"
+  },
+  
+  "dashboard": "Dashboard",
+  "@dashboard": {
+    "description": "Dashboard navigation label"
+  },
+  
+  "attendance": "Presenze",
+  "@attendance": {
+    "description": "Attendance navigation label"
+  },
+  
+  "payroll": "Buste Paga",
+  "@payroll": {
+    "description": "Payroll navigation label"
+  },
+  
+  "settings": "Impostazioni",
+  "@settings": {
+    "description": "Settings navigation label"
+  },
+  
+  "language": "Lingua",
+  "@language": {
+    "description": "Language settings label"
+  }
+}

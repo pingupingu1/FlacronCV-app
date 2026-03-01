@@ -1,0 +1,16 @@
+TWO MANUAL FIXES NEEDED IN lib/main.dart:
+
+FIX 1 - line ~99: supportedLocales error
+Change:
+  supportedLocales: S.delegate.supportedLocales,
+To:
+  supportedLocales: const [
+    Locale('en'),
+    Locale('ar'),
+  ],
+
+FIX 2 - line ~168: CardTheme → CardThemeData
+Change:
+  cardTheme: CardTheme(
+To:
+  cardTheme: CardThemeData(

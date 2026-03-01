@@ -1,0 +1,80 @@
+{
+  "@@locale": "ko",
+
+  "appTitle": "플라크론 컨트롤",
+
+  "welcomeTitle": "AI로 비즈니스를 자동화하세요",
+  "welcomeSubtitle": "Calendly, Gusto, Stripe, WhatsApp 등을 하나로 대체하는 강력한 단일 플랫폼",
+  "getStartedFree": "무료로 시작하기",
+  "alreadyHaveAccountLogin": "이미 계정이 있으신가요? 로그인",
+
+  "everythingYourBusinessNeeds": "비즈니스에 필요한 모든 것",
+  "onePlatformZeroHassle": "하나의 플랫폼. 번거로움 제로.",
+
+  "aiCustomerAssistant": "AI 고객 어시스턴트",
+  "aiCustomerAssistantDesc": "24/7 지능형 챗봇 – 질문에 답하고, 서비스를 제안하며, 예약을 완료합니다",
+
+  "smartBookings": "스마트 예약",
+  "smartBookingsDesc": "간편한 일정 관리, 가용 시간 확인, 알림 및 캘린더 동기화",
+
+  "onlinePayments": "온라인 결제",
+  "onlinePaymentsDesc": "Stripe를 통한 안전한 예약금 및 전체 결제 – 즉시 처리, 문제 없음",
+
+  "autoInvoicing": "자동 청구서 발행",
+  "autoInvoicingDesc": "모든 예약 및 서비스 이후 자동으로 전문 청구서가 생성됩니다",
+
+  "employeeAttendance": "직원 및 출퇴근 관리",
+  "employeeAttendanceDesc": "출입 기록, 근무 시간 계산, 간편한 출퇴근 대시보드",
+
+  "payrollSummary": "급여 요약",
+  "payrollSummaryDesc": "직원 근무 시간 × 시급을 즉시 확인 – 수동 계산 불필요",
+
+  "pricingTitle": "간단하고 투명한 가격 정책",
+  "pricingSubtitle": "비즈니스에 맞는 플랜을 선택하세요",
+
+  "starterPlan": "Starter",
+  "growthPlan": "Growth",
+  "proPlan": "Pro",
+  "enterprisePlan": "Enterprise",
+
+  "perMonth": "/월",
+  "mostPopular": "가장 인기",
+  "choosePlan": "플랜 선택",
+
+  "trustedByBusinesses": "당신과 같은 비즈니스들이 신뢰합니다",
+
+  "readyToAutomate": "비즈니스를 자동화할 준비가 되셨나요?",
+  "joinHundreds": "매일 시간과 비용을 절약하는 수백 개의 비즈니스에 합류하세요",
+  "startFreeTrial": "무료 체험 시작하기",
+
+  "copyright": "© 2026 FlacronControl • All rights reserved",
+
+  "createAccount": "계정 생성",
+  "joinFlacronControl": "FlacronControl에 가입하기",
+  "startAutomatingToday": "오늘부터 비즈니스 자동화를 시작하세요",
+
+  "fullName": "이름",
+  "businessName": "사업체명",
+  "email": "이메일",
+  "phoneNumber": "전화번호",
+  "password": "비밀번호",
+  "confirmPassword": "비밀번호 확인",
+
+  "registerButton": "계정 생성",
+  "alreadyHaveAccount": "이미 계정이 있으신가요? 로그인",
+
+  "fieldRequired": "필수 입력",
+  "invalidEmail": "유효하지 않은 이메일",
+  "passwordMinLength": "최소 6자 이상",
+  "passwordsDoNotMatch": "비밀번호가 일치하지 않습니다",
+
+  "accountCreatedTitle": "계정 생성 완료!",
+  "accountCreatedMessage": "FlacronControl에 오신 것을 환영합니다!\n프로필이 저장되었습니다.\n이메일을 확인한 후 로그인해 주세요.",
+  "goToLogin": "로그인 페이지로 이동",
+
+  "dashboard": "대시보드",
+  "attendance": "출퇴근",
+  "payroll": "급여",
+  "settings": "설정",
+  "language": "언어"
+}

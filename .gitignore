@@ -1,0 +1,92 @@
+# ─────────────────────────────────────────────
+# ENVIRONMENT & SECRETS (CRITICAL)
+# ─────────────────────────────────────────────
+.env
+.env.*
+*.env
+
+# Firebase secrets
+functions/.env
+functions/.runtimeconfig.json
+
+# API Keys
+**/api_keys.json
+**/secrets.json
+
+# ─────────────────────────────────────────────
+# FLUTTER / DART
+# ─────────────────────────────────────────────
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter_tool_state
+
+# Generated files
+*.g.dart
+*.freezed.dart
+
+# ─────────────────────────────────────────────
+# ANDROID
+# ─────────────────────────────────────────────
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/debug/
+android/app/release/
+android/app/*.keystore
+android/app/*.jks
+*.apk
+*.aab
+
+# ─────────────────────────────────────────────
+# IOS / MACOS
+# ─────────────────────────────────────────────
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/App.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Runner.xcworkspace/
+ios/DerivedData/
+*.xcuserstate
+
+macos/Pods/
+macos/Flutter/ephemeral/
+
+# ─────────────────────────────────────────────
+# WEB
+# ─────────────────────────────────────────────
+web/.dart_tool/
+web/build/
+
+# ─────────────────────────────────────────────
+# FIREBASE FUNCTIONS (NODE)
+# ─────────────────────────────────────────────
+functions/node_modules/
+functions/lib/
+functions/dist/
+functions/.firebase/
+functions/.eslintcache
+
+# ─────────────────────────────────────────────
+# NODE
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Environment variables
+.env
+.env.local
+.env.*.local
